@@ -41,6 +41,22 @@
   margin-left: 1rem;
 }
 
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  background-color: #c2ecff;
+}
+
+.right {
+  width: 50%;
+  background-color: #ffe3e3;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
